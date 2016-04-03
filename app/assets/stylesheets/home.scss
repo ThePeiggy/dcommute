@@ -10,18 +10,16 @@ html,body {
   margin: 0;
 }
 
-@media (max-width: 2160px) {
-	.landing {
-	  background-image: url(image-path('cover.png')); 
-	  background-size: auto 100%;
-	  background-position: center;
-	  -webkit-background-size: cover;
-	  -moz-background-size: cover;
-	  -o-background-size: cover;
-	  background-size: cover;
-	  height: 100%;
-	  width: 100%;
-	}
+.landing {
+  background-image: url(image-path('cover.png')); 
+  background-size: auto 100%;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
 }
 
 @media (orientation: portrait) {
