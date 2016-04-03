@@ -10,15 +10,32 @@ html,body {
   margin: 0;
 }
 
-.landing {
-  background-image: url(image-path('cover.png')); 
-  background-size: auto 100%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height: 100%;
-  width: 100%;
+@media (max-width: 2160px) {
+	.landing {
+	  background-image: url(image-path('cover.png')); 
+	  background-size: auto 100%;
+	  background-position: center;
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+	  height: 100%;
+	  width: 100%;
+	}
+}
+
+@media (orientation: portrait) {
+	.landing {
+	  background-image: url(image-path('cover_mobile.png')); 
+	  background-size: 100% auto;
+	  background-position: center;
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+	  height: 100%;
+	  width: 100%;
+	}
 }
 
 .content {
