@@ -1,3 +1,33 @@
 // Place all the styles related to the home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+html,body {
+  font-family: "Source Sans Pro","Helvetica Neue",sans-serif;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.landing {
+  background-image: url(image-path('cover.png')); 
+  background-size: auto 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.content {
+  background-image: url(image-path('content.jpg')); 
+  background-size: auto 100%;
+  width: 100%;
+}
+
+.content_image {
+	visibility: hidden;
+	width: 100%;
+}
